@@ -3,7 +3,9 @@ package com.example.loginpage;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.cardview.widget.CardView;
 
+import android.content.Intent;
 import android.os.Bundle;
+import android.os.Parcelable;
 import android.view.View;
 import android.widget.ImageView;
 
@@ -26,7 +28,35 @@ public class login extends AppCompatActivity {
         contact_card.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+                Intent intent = new Intent(login.this, replacement.class);
+                intent.putExtra("contact", 1);
+                startActivity(intent);
 
+
+            }
+        });
+        website_card.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(login.this, replacement.class);
+                intent.putExtra("contact", 2);
+                startActivity(intent);
+            }
+        });
+        calender_card.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(login.this, replacement.class);
+                intent.putExtra("contact", 3);
+                startActivity(intent);
+            }
+        });
+        profile_card.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(login.this, replacement.class);
+                intent.putExtra("contact",4);
+                startActivity(intent);
             }
         });
     }

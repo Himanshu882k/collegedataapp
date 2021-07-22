@@ -9,20 +9,13 @@ import android.view.View;
 import android.view.ViewGroup;
 
 
-public class contactfrag extends Fragment {
-    private View view;
+public class profilefrag extends Fragment {
 
-
-    public contactfrag() {
-        // Required empty public constructor
-
-    }
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
-        view = inflater.inflate(R.layout.fragment_contactfrag, container, false);
-        return view;
+        return inflater.inflate(R.layout.fragment_profilefrag, container, false);
     }
 }

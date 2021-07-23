@@ -85,7 +85,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:fontFamily="times"
-                android:text="Contact numbers:\n Rakesh Jacob, Registrar \n 9167725369\n\ Mukesh Sir\n 9833277840"
+                android:text="For Admission Enquiry:\n Rakesh Jacob, Registrar \n 9167725369\n\ Mukesh Sir\n 9833277840"
                 android:textSize="20dp"></TextView>
         </LinearLayout>
 

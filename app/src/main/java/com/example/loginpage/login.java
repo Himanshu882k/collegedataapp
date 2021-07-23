@@ -59,5 +59,14 @@ public class login extends AppCompatActivity {
                 startActivity(intent);
             }
         });
+        setting_card.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(login.this, replacement.class);
+                intent.putExtra("contact",5);
+                startActivity(intent);
+
+            }
+        });
     }
 }

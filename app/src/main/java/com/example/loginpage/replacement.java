@@ -29,6 +29,9 @@ public class replacement extends AppCompatActivity {
         if (value == 4){
             replacefrag(new profilefrag());
         }
+        //if (value == 5){
+            //replacefrag(new settingfrag());
+        //}
 
 
 

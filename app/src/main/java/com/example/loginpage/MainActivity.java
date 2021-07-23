@@ -19,7 +19,7 @@ import com.google.firebase.auth.AuthResult;
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.auth.SignInMethodQueryResult;
 
-public class MainActivity extends AppCompatActivity {
+public class    MainActivity extends AppCompatActivity {
     private FirebaseAuth Mauth;
     private EditText email, password;
     private Button login;
@@ -43,8 +43,10 @@ public class MainActivity extends AppCompatActivity {
                 String username = email.getText().toString();
                 String Password = password.getText().toString();
 
-                if(TextUtils.isEmpty(username)| TextUtils.isEmpty(Password)){
+                if(TextUtils.isEmpty(username)) {
                     email.setError("Enter mail");
+                }
+                else if( TextUtils.isEmpty(Password)){
                     password.setError("Enter password");
                 }
                 else{

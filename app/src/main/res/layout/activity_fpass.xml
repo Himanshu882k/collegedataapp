@@ -19,19 +19,21 @@
         app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.202" />
+        app:layout_constraintVertical_bias="0.202"
+        android:background="@drawable/email"/>
 
     <Button
         android:id="@+id/reset"
-        android:layout_width="204dp"
-        android:layout_height="51dp"
+        android:layout_width="150dp"
+        android:layout_height="45dp"
         android:text="Send"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.3" />
+        app:layout_constraintVertical_bias="0.3"
+        android:background="@drawable/login"/>
 
     <View
         android:id="@+id/view2"
